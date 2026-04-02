@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PowerGym Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <div class="logo">POWERGYM</div>
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#programs">Programs</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#pricing" class="btn btn-ghost">Join Now</a>
+            <button class="burger" aria-label="toggle navigation" id="burger">☰</button>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-text animate" data-animate="slide-up">
+                <p class="subheading">GET READY TO LEVEL UP</p>
+                <h1>UNLEASH YOUR <span class="accent">POTENTIAL</span></h1>
+                <p>Join a community where goals are crushed, strength is built, and progress becomes power.</p>
+                <div class="hero-actions">
+                    <a href="#pricing" class="btn btn-primary">Get Started</a>
+                    <a href="#programs" class="btn btn-secondary">Explore More</a>
+                </div>
+            </div>
+            <div class="hero-img animate" data-animate="fade-in">
+                <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=1200&q=80" alt="Gym hero" />
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="section programs-section">
+        <div class="container section-header animate" data-animate="fade-in">
+            <h2>OUR PROGRAMS</h2>
+            <p>Discover the perfect program to match your goals and fitness level.</p>
+        </div>
+        <div class="program-grid">
+            <article class="program-card animate" data-animate="slide-up">
+                <img src="https://images.unsplash.com/photo-1594737625785-58a5b67ce4c4?auto=format&fit=crop&w=900&q=80" alt="Personal training" />
+                <h3>Personal Training</h3>
+                <p>One-on-one coaching tailored to your goals with structured progress tracking.</p>
+            </article>
+            <article class="program-card animate" data-animate="slide-up" style="transition-delay: 0.1s;">
+                <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b6f?auto=format&fit=crop&w=900&q=80" alt="Strength training" />
+                <h3>Strength Training</h3>
+                <p>Build muscle, increase power, and transform your physique with pro programming.</p>
+            </article>
+            <article class="program-card animate" data-animate="slide-up" style="transition-delay: 0.2s;">
+                <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001b6?auto=format&fit=crop&w=900&q=80" alt="HIIT classes" />
+                <h3>HIIT Classes</h3>
+                <p>High-intensity interval training that burns calories fast and boosts endurance.</p>
+            </article>
+            <article class="program-card animate" data-animate="slide-up" style="transition-delay: 0.3s;">
+                <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=900&q=80" alt="Fitness training" />
+                <h3>Fitness Training</h3>
+                <p>Flexible group sessions for all levels with easy scheduling and expert coaches.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="schedule" class="section schedule-section">
+        <div class="container section-header animate" data-animate="fade-in">
+            <h2>OUR SCHEDULE</h2>
+            <p>Choose the daily sessions that suit your week and keep progress on track.</p>
+        </div>
+        <div class="schedule-grid animate" data-animate="zoom-in">
+            <div class="schedule-card"><span>Monday</span><span>6:00–8:00</span></div>
+            <div class="schedule-card"><span>Tuesday</span><span>7:00–9:00</span></div>
+            <div class="schedule-card"><span>Wednesday</span><span>6:30–8:30</span></div>
+            <div class="schedule-card"><span>Thursday</span><span>7:00–9:00</span></div>
+            <div class="schedule-card"><span>Friday</span><span>6:00–8:00</span></div>
+            <div class="schedule-card"><span>Saturday</span><span>8:00–11:00</span></div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section pricing-section">
+        <div class="container section-header animate" data-animate="fade-in">
+            <h2>SELECT YOUR PLAN</h2>
+            <p>Affordable memberships made for consistent results with no hidden fees.</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card animate" data-animate="slide-up">
+                <h3>Monthly Subscription</h3>
+                <p class="price">200 <span>DH</span>/ month</p>
+                <ul>
+                    <li>Unlimited gym access</li>
+                    <li>2 personal training sessions</li>
+                    <li>Regular progress tracking</li>
+                    <li>Group class access</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Start Monthly</a>
+            </div>
+            <div class="pricing-card featured animate" data-animate="slide-up" style="transition-delay:0.15s;">
+                <h3>One-time Deal</h3>
+                <p class="price">1500 <span>DH</span> one-time</p>
+                <ul>
+                    <li>12-week kickstart plan</li>
+                    <li>Goal-based programming</li>
+                    <li>Nutrition guidance</li>
+                    <li>Dedicated coach support</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary">Get Deal</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container section-header animate" data-animate="fade-in">
+            <h2>CONTACT US</h2>
+            <p>Ready to transform? Book a free consultation with our team today.</p>
+        </div>
+        <form class="contact-form animate" data-animate="slide-up">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <input type="email" name="email" placeholder="Email Address" required />
+            <select name="plan" required>
+                <option value="monthly">Monthly Subscription</option>
+                <option value="onetime">One-time Deal</option>
+            </select>
+            <button type="submit" class="btn btn-primary">Send Inquiry</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 PowerGym. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
